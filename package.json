@@ -1,0 +1,18 @@
+{
+  "name": "postapp-backend",
+  "version": "1.0.0",
+  "description": "Task for HDFC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./helper/rolesDataSeeder && node index.js"
+  },
+  "author": "Keval Dave",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0"
+  }
+}
